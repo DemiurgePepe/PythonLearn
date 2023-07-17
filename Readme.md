@@ -1,1 +1,1 @@
-## [Домашняя работа 17.07.202 C:\PythonLearn\HomeWork\HW1.py]
+## [Домашняя работа 17.07.202][C:\PythonLearn\HomeWork\CW1.py]
