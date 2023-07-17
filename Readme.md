@@ -1,1 +1,1 @@
-## [Домашняя работа 17.07.2023](C:\PythonLearn\HomeWork\HW1.py)
+## [Домашняя работа 17.07.2023](/PythonLearn/HomeWork/HW1.py)
