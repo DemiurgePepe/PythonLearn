@@ -1,3 +1,1 @@
-## [Домашняя работа 17.07.2023][def]
-
-[def]: C:\PythonLearn\HomeWork\HW1.py
+## [Домашняя работа 17.07.202 C:\PythonLearn\HomeWork\HW1.py]
