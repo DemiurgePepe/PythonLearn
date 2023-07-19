@@ -8,7 +8,7 @@ import random
 #     number = 0
 #     eagle =0
 #     for i in range(0,n): 
-#         listOfMoney.insert(i,random.randint(0,1))
+        # listOfMoney.insert(i,random.randint(0,1))
 #         if listOfMoney[i]==1:
 #             number=number+1
 #             print(number)
@@ -58,6 +58,62 @@ import random
 #         array.insert(i-1,2**i)
 # print(array)
 
+# задача 1 сложная необязательная Посчитать сумму цифр любого целого или вещественного числа. Через строку решать нельзя.
+
+# while(number>0):        
+#     count+=number%10
+#     number = number//10
+# print(count)
+
+def UserInput(text):
+    print(text)
+    value = input()
+    for i in range(len(value)-1):
+        if value[i]== ".":
+            value = float(value)
+            return value
+    if  isinstance(value, str):
+        value = int(value)
+        return value
+# number = UserInput("Введите число: ")
+# count = 0
+# def SumOfNumber(number,count):
+#     while (number-number%1)<number:
+#         number*=10
+#     while(number>0):        
+#         count+=number%10
+#         number = number//10
+#     print(count)
+    
+# SumOfNumber(number,count)
+
+
+# задача 3 необязательная
+
+# Валентина прогуляла лекцию по математике.
+# Преподаватель решил подшутить над нерадивой студенткой и
+# попросил ее на практическом занятии перечислить все положительные делители некоторых целых чисел.
+# Для несложных примеров студентка быстро нашла решения (для числа 6 это: 1, 2, 3, 6; а для числа 16 это: 1, 2, 4, 8, 16), но этим все не закончилось.
+# На домашнее задание ей дали варианты посложнее: 23436, 190187200, 380457890232.
+
+# Решить такое вручную, как вы понимаете, практически нереально.
+# Вот Валентина и обратилась к вам за помощью.
+# Помогите ей (при помощи функции all_divisors(number), которую напишете сами).
+# Постарайтесь найти самое оптимальное решение.
+# Результат представьте в виде списка (не забудьте отсортировать по возрастанию).
+# number = UserInput("Введите число: ")
+# list = []*number
+# def all_divisors(number,list):
+#     i = 1
+#     j = 0
+#     while i<=number//2  or i==number:
+#         if number%i==0:
+#             list.insert(j, i)
+#             j+=1
+#         i+=1
+#     list.insert(j,number)
+#     return list
+# print(all_divisors(number,list))
 
 
 
